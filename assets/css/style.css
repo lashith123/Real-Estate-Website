@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 .img-box{
-    position: fixed;
     left: 0;
     display: inline-block;
 }
@@ -22,7 +21,7 @@
 }   
 .overlay-text .text{
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 30%;
     transform: translate(-50%, -50%);
     color: white;
@@ -35,15 +34,43 @@
     color: white;
     background-color: black;
     border-radius: 8px;
-    padding: 35px 55    px;
+    padding: 35px 55px;
 }
 .overlay-text .btn-search{
     position: absolute;
-    top: 80%;
-    left: 74.7%;
+    top: 77%;
+    left: 74.5%;
     transform: translate(-50%, -50%);
     font-size: 75px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     z-index: 1000;
+}
+main{
+    padding-top: 40px;
+}
+.f1{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+fieldset{
+    width: 1000px;
+    border-radius: 8px;
+}
+fieldset select{
+    display: inline-block;
+    margin-right: 15px;
+    padding: 5px 10px;
+}
+fieldset label{
+    display: inline-block;
+    margin: 0px  15px 0px 15px;
+}
+.btn-1{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: solid white 2px;
+    border-radius: 8px;
 }
