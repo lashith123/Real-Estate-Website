@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 .img-box{
+    position: relative;
     left: 0;
     display: inline-block;
 }
