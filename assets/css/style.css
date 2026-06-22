@@ -2,8 +2,10 @@
     box-sizing: border-box;
 }
 .img-box{
+    position: relative;
     left: 0;
     display: inline-block;
+    border: solid black 2px;
 }
 .img-1{
     display: block;
@@ -27,8 +29,7 @@
     color: white;
     font-size: 60px;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    z-index: 1000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);    
 }
 .btn-search{
     color: white;
@@ -91,4 +92,7 @@ main{
     border: solid black 2px;
     padding: 5px 70px;
     border-radius: 8px;
+}
+nav{
+    z-index: 1000;
 }
